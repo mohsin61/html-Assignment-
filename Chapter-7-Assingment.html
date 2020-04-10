@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0>
+    <meta http-equiv="X-UA-Compatable" content="ie=edge">
+    <title>Chapter 7 Assngment</title>
+    </head>
+    <body>
+        <h1><b>Chapter #7 Form</b></h1>
+        <form action="http://www.example.com/login.php" method="POST">
+            <fieldset>
+                <legend>Personal Details</legend>
+            <p
+            >First Name
+            <input type="text" size="15" maxlength="30" required/>
+            Last name
+            <input type="text" size="15" maxlength="30"/>
+        </p>
+        <p>
+            Gender:
+            <label><input type="radio" name="gender" checked value="m"/> Male</label>
+            
+            <label><input type="radio" name="gender" value="f"/>Female </label>
+        </p>
+        <p>
+            Date of Birth:
+            <input type="date" name="dob"/>
+        </p>
+        <p>
+            Please enter your email adress:
+            <br />
+            <input type="email" name="email"/>
+        </p>
+        <p>
+            Please enter your website:
+            <input type="url" name="profile"/>
+        </p>
+        <p>
+            Nationality:
+            <select name="countries" multiple>
+                <option value="pakistan">Pakistan</option>
+                <option value="usa">USA</option>
+                <option value="canada">Canada</option>
+                <option value="england">England</option>
+                <option value="china" >China</option value="china" >
+            </select>
+        </p>
+        </fieldset>
+        <p>
+            password:
+        <input type="password" name="password" size="15" maxlength="30">
+        </p>
+        <p>
+            Re-enter Password:
+            <input type="password" name="password" size="15" maxlength="30"/>
+        </p>
+        <p>
+
+            Interst:
+            <input type="checkbox" name="interests" value="men"/> Men's Clothing
+            <input type="checkbox" name="interests" value="Wmn"/> Women's Clothing
+            <input type="checkbox" name="interests" value="acc"/> Accesories
+            <input type="checkbox" name="interests" value="elec"/> Electronices
+        </p>
+        <p>
+            Comments:
+        </p>
+        <p>
+        <textarea name="comments" rows="4" cols="30">Enter Your Comments..</textarea>
+        </p>
+        <p>
+            Upload Profile Picture:
+        </p>
+            <input type="file" name="Profile Picture"/>
+            <br />
+            <br />
+            <input type="file" value="Upload"/>
+
+         <input type="submit"/>  
+         <br />
+          <input type="image" src="submit.jpg" width="150"/>
+        </form>
+    </body>
+
+</html>
